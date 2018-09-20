@@ -1,4 +1,4 @@
-# Reproducibilty up front
+# Reproducibility up front
 
 Or: Reproducibility first!
 
