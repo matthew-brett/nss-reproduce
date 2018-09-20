@@ -4,7 +4,7 @@ Or: Reproducibility first!
 
 Or: Make science great again.
 
-[Get the slides](https://github.com/matthew-brett).
+[Get the slides](https://github.com/matthew-brett/nss-reproduce/blob/master/reproducibility_up_front.pdf).
 
 [![Run the notebook](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/matthew-brett/nss-reproduce/master?filepath=permutation_test.ipynb)
 
