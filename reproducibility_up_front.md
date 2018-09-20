@@ -197,20 +197,26 @@ All at https://github.com/berkeley-stat159/
 https://github.com/berkeley-stat159/project-epsilon
 
 * dataset ds000005---the "Mixed-gambles task"
-* }.  They first explored the imaging data using the outlier detection
-machinery that all students had developed in the second homework.  Next they
-explored various logistic regression models of the behavioral data.  For the
-imaging data, they used the SciPy \texttt{ndimage} subpackage to smooth the
-data, as we had briefly shown in class, and then followed some hints in the
-lectures to explore different confound models such as linear and quadratic
-drift, and Principal Components as regressors.  They used code
-from class to implement the general linear model at each voxel, and calculate
-$t$- and $p$-values using contrast vectors.  Finally they thresholded their images
-using Bonferroni correction.
-Some examples:
+* outlier detection (from class)
+* logistic regression models of behavioral data.
+* image smmoothing (Scipy)
+* FMRI drift models, including PCA
+* GLM at each voxel
+* Bonferroni correction
 
-* project-x
-* project-y etc
+# Extension
+
+https://github.com/berkeley-stat159/project-lambda
+
+* ds000113---a high-resolution FMRI dataset of Forrest Gump;
+* Very large images
+* Cross voxel time course correlations
+* Found image artefacts, error in original paper
+* Replicated image correlations
+* Extended to Random Forest Model to predict indoor, outdoor.
+
+> We strongly encourage running on a machine with 120 GBs of accessible RAM to
+> emulate development environment.
 
 # Git / github
 
